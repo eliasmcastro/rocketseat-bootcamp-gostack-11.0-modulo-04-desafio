@@ -39,23 +39,17 @@ git clone https://github.com/eliasmcastro/rocketseat-bootcamp-gostack-11.0-modul
 
 #### Passos para a execução
 
-**1. Entrar na pasta do projeto**
-
-```bash
-cd rocketseat-bootcamp-gostack-11.0-modulo-04-desafio
-```
-
-**2. Criar um banco de bados PostgreSQL**
+**1. Criar um banco de bados PostgreSQL**
 
 ```bash
 create database gostack_desafio
 ```
 
-**3. Alterar os dados de acesso do banco de dados PostgreSQL de acordo com sua instalação**
+**2. Alterar os dados de acesso do banco de dados PostgreSQL de acordo com sua instalação**
 
 Abrir `ormconfig.json` e se necessário alterar o `host`, `port`, `username`, `password` e `database` de acordo com sua instalação
 
-**4. Executar aplicação**
+**3. Executar aplicação**
 
 Instalar as dependências do projeto
 
@@ -174,10 +168,6 @@ _Dica: se utilizar o comando `yarn test --watchAll`, o mesmo fica realizando aut
 - [Opções de relacionamentos do TypeORM](https://github.com/typeorm/typeorm/blob/master/docs/find-options.md)
 
 ### Específicação dos testes
-
-Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
-
-Para esse desafio temos os seguintes testes:
 
 - **`should be able to create a new customer`**: Para que esse teste passe, sua aplicação deve permitir que um cliente seja criado, e retorne um json com o cliente criado.
 
